@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+    <view bindtap="bindViewTap" class="logo-view">
+        <image src="../../img/logo.png" class="logo"></image>
+    </view>
+    <view class="slogan">与世界分享你的知识、经验和见解</view>
+    <view class="tab-view">
+        <span class="tab">注册</span>
+        <span class="tab">登录</span>
+        <span class="active-line"></span>
+    </view>
+    <view class="form-view">
+        <form>
+            <view>
+                <input style="border: 0;" name="input" placeholder="姓名" />
+            </view>
+            <view>
+                <input name="input" placeholder="手机号" />
+            </view>
+            <view>
+                <input name="input" placeholder="密码（不少于 6 位）" />
+            </view>
+        </form>
+    </view>
+    <button>注册知乎</button>
+</view>

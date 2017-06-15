@@ -1,0 +1,59 @@
+/**index.wxss**/
+.logo-view {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+}
+
+.logo{
+	width: 96px;
+    height: 44.4px;
+}
+
+.slogan{
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.tab-view{
+	position: relative;
+}
+
+.tab{
+	float:left;
+	width: 4em;
+	line-height: 35px;
+	font-size: 18px;
+	text-align: center; 
+}
+
+.active-line{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0 .8em;
+    width: 2.4em;
+    height: 2px;
+    background: #0f88eb;
+}
+
+.form-view{
+	margin-top:25px;
+	background: #fff;
+	width: 300px;
+	border-radius: 5px;
+	border: .01em solid grey;
+}
+
+.form-view input{
+	height: 50px;
+	padding: 2%;
+	border-top: .1em solid grey;
+}
+
+button{
+	background: #0f88eb;
+	color:#fff;
+	width: 300px;
+	margin-top: 50px;
+}
