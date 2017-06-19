@@ -35,6 +35,7 @@
     width: 2.4em;
     height: 2px;
     background: #0f88eb;
+    transition: left .15s ease-in;
 }
 
 .form-view{
@@ -51,9 +52,13 @@
 	border-top: .1em solid grey;
 }
 
+.btn-view{
+	margin-top: 50px;
+	height: 100px;
+}
+
 button{
 	background: #0f88eb;
 	color:#fff;
 	width: 300px;
-	margin-top: 50px;
 }

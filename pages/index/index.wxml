@@ -22,5 +22,7 @@
             </view>
         </form>
     </view>
-    <button>注册知乎</button>
+    <view class="btn-view">
+        <button>注册知乎</button>
+    </view>
 </view>

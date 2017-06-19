@@ -1,6 +1,6 @@
 /**app.wxss**/
 .container {
-  height: 555px;
+  height: 100%;
   background: #e7e9fd;
   display: flex;
   flex-direction: column;
